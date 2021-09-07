@@ -94,7 +94,7 @@ Test requirements can be loaded , check if the contraint file is in the requirem
 def testRequirements(mwaa, requirements):
 
     print("start testing requirements ...")
-
+    exit_code = 0
     with open(requirements, "r") as requirementFile:
         requirementFileContent = requirementFile.read()
         if constraintFileName not in requirementFileContent:
