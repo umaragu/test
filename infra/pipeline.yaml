@@ -136,7 +136,8 @@ Resources:
     Properties:
       Cache:
         Location: LOCAL
-        Modes: LOCAL_DOCKER_LAYER_CACHE
+        Modes: 
+          - LOCAL_DOCKER_LAYER_CACHE
         Type: LOCAL
       Artifacts:
         # No artifacts as the buildspec controls where the files are uploaded
