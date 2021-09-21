@@ -1,6 +1,6 @@
 {
     "Parameters":{
-        "EnvironmentName":"MWAAEnvironment1",
+        "EnvironmentName":"MWAAEnvironment",
         "RequirementsFileVersion":"REQUIREMENT_FILE_VERSION",
         "PluginsVersion":"PLUGIN_FILE_VERSION",
         "S3Bucket":"mwaa-test-umaragu"
